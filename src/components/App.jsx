@@ -15,7 +15,7 @@ function App() {
     return (
         <div>
             <h1>
-                <span>emojipedia</span>
+                <span>Emojipedia</span>
             </h1>
             <dl className="dictionary">
                 {emojipedia.map(CreateCard)}
